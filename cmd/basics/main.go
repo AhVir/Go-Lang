@@ -47,6 +47,8 @@ func main() {
 	const pi float32 = 3.1416
 	// const pi = 3.1416 -> both works with const, mentioning type or not
 	fmt.Println(pi)
+
+	test()
 }
 
 func hello() string {
